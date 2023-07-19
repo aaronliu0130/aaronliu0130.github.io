@@ -35,7 +35,7 @@
 
         /** You'll want to create a mousemove event listener that publishes the current
         mouse coordinate values to these global x and y variables */
-        document.getElementById("canvas").addEventListener("mousemove", move, false);
+        document.addEventListener("mousemove", move, false);
         function move(event) {
             x = event.offsetX;
             y = event.offsetY;
